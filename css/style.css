@@ -1,0 +1,205 @@
+/* Common */
+*, body{
+    font-family: "PingFangTC-Regular", "Microsoft JhengHei", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Wrap */
+.wrap{
+    margin: auto;
+    max-width: 1024px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+}
+
+/* Header */
+.header{
+    /* css裡的url不要忘記.. */
+    background: url("../img/Hero.png") no-repeat; 
+    background-size: 100% 380px;
+    /* overflow: hidden; */
+
+}
+/* title */
+.header-title{
+    font-size: 40px;
+    padding: 90px 0;
+    text-align: center;
+    color: white;
+}
+/* select */
+.header-select{
+    display: block;
+    height: 50px;
+    /* max-width要有原始寬度(當<450時就會用原始) */
+    width: 90%;
+    max-width: 450px;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    background: rgba(255,255,255, 0.7);
+    margin: 10px auto 70px;
+    /* select的字型要另外設定 */
+    font-weight: bold;
+}
+    
+/* topArea */
+.header-topArea{
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px #000;
+    border-radius: 5px;
+}
+.top-title{
+    margin-bottom: 15px;
+}
+.top-button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    /* button的字型要另外設定 */
+    border: none;
+    cursor: pointer;
+    padding: 10px 35px;
+    margin: 0 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+}
+.btn.purple{
+    background-color: #8A82CC;
+}
+.btn.pink{
+    background-color: #FFA782;
+}
+.btn.yellow{
+    background-color: #F5D005;
+}
+.btn.blue{
+    background-color: #559AC8;
+}
+/* driver */
+.driver{
+    height: 5px;
+    margin: 30px 50px;
+    border-bottom: 1px dashed #559AC8;
+}
+
+/* Content */
+/* .main{
+    margin-bottom: 200px;
+} */
+/* title */
+.main-title{
+    padding: 25px 0;
+    text-align: center;
+    color: #8A82CC;
+    font-size: 36px;
+}
+/* list */
+.main-list{
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-list li{
+    margin: 0 8px 36px;
+    width: 465px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+/* list-header */
+.list-header{
+    width: 100%;
+    height: 155px;
+    /* background: url("https://khh.travel/FileArtPic.ashx?id=705&w=1280&h=960") center center; */
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0,0,0,0.2)), url("https://khh.travel/FileArtPic.ashx?id=705&w=1280&h=960") center center;
+    background-size: cover;
+    position: relative;
+}
+.list-header .title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 14px 24px;
+}
+.list-header .title span{
+    font-size: 16px;
+    float: right;
+    align-self: flex-end;
+}
+/* list-content */
+.list-content{
+    padding: 0 24px 22px;
+    position: relative;
+}
+.list-content .info{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.list-content .icon{
+    width: 20px;
+    margin-right: 8px;
+    text-align: center;
+}
+.list-content .tag{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    right: 24px;
+    bottom: 20px;
+}
+
+
+
+
+
+/* GoTop */
+.goTop{
+    cursor: pointer;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    border: none;
+    padding: 0;
+    outline: none;
+    background: none;
+    border: none;
+}
+.goTop:focus {
+    border:2px solid rgba(153, 194, 222, 0.5);
+}
+
+
+/* Footer */
+.footer{
+    padding: 25px 0;
+    background-color: #559AC8;
+}
+.footer *{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.footer-decribe{
+    margin-top: 15px;
+    color: #FFD366;
+}
+
+
+
+
+
+
+
+
